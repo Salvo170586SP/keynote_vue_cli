@@ -3,6 +3,7 @@
     <Header />
     <Jumbotron />
     <WhoWeAre />
+    <Subscribe />
   </div>
 </template>
 
@@ -10,12 +11,14 @@
 import Header from "./Header.vue";
 import Jumbotron from "./Jumbotron.vue";
 import WhoWeAre from "./WhoWeAre.vue";
+import Subscribe from "./Subscribe.vue";
 export default {
   name: "Home",
   components: {
     Header,
     Jumbotron,
-    WhoWeAre
+    WhoWeAre,
+    Subscribe,
   },
 };
 </script>
