@@ -6,6 +6,7 @@
     <Subscribe />
     <Speackers />
     <Program />
+    <Map />
   </div>
 </template>
 
@@ -16,6 +17,7 @@ import WhoWeAre from "./WhoWeAre.vue";
 import Subscribe from "./Subscribe.vue";
 import Speackers from "./Speackers.vue";
 import Program from "./Program.vue";
+import Map from "./Map.vue";
 export default {
   name: "Home",
   components: {
@@ -24,7 +26,8 @@ export default {
     WhoWeAre,
     Subscribe,
     Speackers,
-    Program
+    Program,
+    Map
 },
 };
 </script>
