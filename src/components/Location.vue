@@ -5,9 +5,11 @@
             <div class="col-12 d-flex flex-column justify-content-center align-items-center text-light">
                 <h2>LOCATION</h2>
                 <h2 class="text-center">GD BUILDING, GRAND CONFERENCE ROOM</h2>
-                <p>11 GD Building, Rivr Mal, NewYork, USA 8879</p>
-                <p>Check For Accomodation Here</p>
-                <p class="b w-50 text-center">+1-255-334-5844  Contact@TheKeynoteTheme.com</p>
+                <p><i class="fa-solid fa-location-arrow"></i> 11 GD Building, Rivr Mal, NewYork, USA 8879</p>
+                <p class="text-danger">Check For Accomodation Here</p>
+                <div class="b w-50 d-flex align-items-center justify-content-center flex-grow">
+                    <p><i class="fa-solid fa-phone"></i> +1-255-334-5844 </p> <p><i class="fa-solid fa-envelope ms-3"></i> Contact@TheKeynoteTheme.com</p> 
+                </div>
             </div>
         </div>
     </div>

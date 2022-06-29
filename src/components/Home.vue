@@ -8,6 +8,7 @@
     <Program />
     <Map />
     <Location />
+    <RecentNews />
   </div>
 </template>
 
@@ -20,6 +21,7 @@ import Speackers from "./Speackers.vue";
 import Program from "./Program.vue";
 import Map from "./Map.vue";
 import Location from "./Location.vue";
+import RecentNews from "./RecentNews.vue";
 export default {
   name: "Home",
   components: {
@@ -30,7 +32,8 @@ export default {
     Speackers,
     Program,
     Map,
-    Location
+    Location,
+    RecentNews
 },
 };
 </script>
