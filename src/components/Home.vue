@@ -12,6 +12,7 @@
     <Tikets />
     <Presentation />
     <Sponsors />
+    <Footer />
   </div>
 </template>
 
@@ -28,6 +29,7 @@ import RecentNews from "./RecentNews.vue";
 import Tikets from "./Tikets.vue";
 import Presentation from "./Presentation.vue";
 import Sponsors from "./Sponsors.vue";
+import Footer from "./Footer.vue";
 export default {
   name: "Home",
   components: {
@@ -42,7 +44,8 @@ export default {
     RecentNews,
     Tikets,
     Presentation,
-    Sponsors
+    Sponsors,
+    Footer
 },
 };
 </script>
