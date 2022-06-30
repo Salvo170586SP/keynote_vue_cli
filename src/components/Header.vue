@@ -1,5 +1,6 @@
 <template>
-    <header class="container">
+  <header>
+    <div class="container">
       <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container-fluid">
           <h1>THE KEYNOTE</h1>
@@ -41,41 +42,57 @@
                 <a class="nav-link" href="#">Shortcodes</a>
               </li>
               <li>
-                  <i class="fa-solid fa-magnifying-glass"></i>
+                <i class="fa-solid fa-magnifying-glass"></i>
               </li>
             </ul>
           </div>
         </div>
       </nav>
-    </header>
+    </div>
+  </header>
 </template>
 
 <script>
 export default {
-    name:"Header"
-}
+  name: "Header",
+};
 </script>
 
 <style scoped lang="scss">
-h1{
-    font-size: 2rem;
-    font-weight: bold;
+
+header{
+  background-color: white;
+  position: fixed;
+  width: 100%;
+  z-index: 10;
+}
+h1 {
+  font-size: 2rem;
+  font-weight: bold;
 }
 
-li{
-    margin: 0 10px;
+ul {
+ /*  padding: 30px;
+  display: flex;
+  align-items: baseline; */
 }
 
-.nav-item{
-    font-weight: bold;
-    font-size: small;
-    text-transform: uppercase;
-    
-
-    &:hover{
-        color: orange;
-        border-bottom: 5px solid orange;
-    }
+li {
+  margin: 0 10px;
+  padding-bottom: 10px;
 }
 
+a {
+  padding: 0;
+}
+.nav-item {
+  font-weight: bold;
+  font-size: small;
+  text-transform: uppercase;
+
+  &:hover {
+    color: orange;
+    border-bottom: 5px solid orange;
+  }
+}
 </style>

@@ -69,4 +69,7 @@ export default {
 </script>
 
 <style scoped lang="scss">
+#program{
+  padding: 50px 0;
+}
 </style>

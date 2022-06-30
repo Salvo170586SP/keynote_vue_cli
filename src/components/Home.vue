@@ -9,6 +9,7 @@
     <Map />
     <Location />
     <RecentNews />
+    <Tikets />
   </div>
 </template>
 
@@ -22,6 +23,7 @@ import Program from "./Program.vue";
 import Map from "./Map.vue";
 import Location from "./Location.vue";
 import RecentNews from "./RecentNews.vue";
+import Tikets from "./Tikets.vue";
 export default {
   name: "Home",
   components: {
@@ -33,7 +35,8 @@ export default {
     Program,
     Map,
     Location,
-    RecentNews
+    RecentNews,
+    Tikets
 },
 };
 </script>

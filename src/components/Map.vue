@@ -1,7 +1,6 @@
 <template>
-  <section class="text-center">
-
-    <h1>MAPS UNCOMING</h1>
+  <section id="map" class="d-flex align-items-center justify-content-center">
+    <h1>MAP COMING SOON</h1>
   </section>
 </template>
 
@@ -18,4 +17,7 @@ export default {
 </script>
 
 <style scoped lang="scss">
+#map{
+  height: 60vh;
+}
 </style>
