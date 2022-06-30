@@ -103,19 +103,19 @@
       </div>
     </section>
     <section id="bottom">
-        <div class="container">
-            <div class="row">
-                <div class="col-12 col-md-6 text-muted text-center text-md-start">
-                    <p>@ Copyright GoodLayers, All right Reserved</p>      
-                </div>
-                <div class="col-12 col-md-6 text-muted text-center text-md-end">
-                    <span class="border-end">About Us</span>      
-                    <span class="border-end">Accomodation</span>      
-                    <span class="border-end">Call For Paper</span>      
-                    <span>Contact Us</span>      
-                </div>
-            </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-md-6 text-muted  d-flex align-items-center justify-content-center justify-content-md-start">
+            <p class="mb-0">@ Copyright GoodLayers, All right Reserved</p>
+          </div>
+          <div class="col-12 col-md-6 d-flex text-center text-md-end d-flex align-items-center justify-content-end">
+              <a href="#" class="nav-link text-muted">About Us</a>
+              <a href="#" class="nav-link text-muted">Accomodation</a>
+              <a href="#" class="nav-link text-muted">Call For Paper</a>
+            <a href="#" class="nav-link text-muted">Contact Us</a>
+          </div>
         </div>
+      </div>
     </section>
   </footer>
 </template>
@@ -151,12 +151,15 @@ export default {};
     margin: 0 10px;
   }
 }
-#bottom{
-    background-color: #161616;
+#bottom {
+  background-color: #161616;
+  color: white;
+  padding: 10px 0;
+
+  a {
     color: white;
-    padding: 10px 0;
-    span{
-        padding: 0 10px;
-    }
+    font-size: 12px;
+
+  }
 }
 </style>

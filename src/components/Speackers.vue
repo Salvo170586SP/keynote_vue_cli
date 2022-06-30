@@ -68,7 +68,7 @@ export default {
 
 <style scoped lang="scss">
 #speackers {
-  padding: 50px 0;
+  padding: 80px 0;
   .box-fig {
     width: 200px;
     margin: 0 20px;
