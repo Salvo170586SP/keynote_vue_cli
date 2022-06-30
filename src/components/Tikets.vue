@@ -6,7 +6,7 @@
           <h2>TIKETS</h2>
         </div>
         <div class="col-12 col-md-4 d-flex justify-content-center">
-          <div class="box-tiket">
+          <div class="box-tiket my-2">
             <div class="p-4">
               <h5 class="fw-bold">ONE DAY PASS</h5>
               <span class="text-danger fw-bold">FREE</span>
@@ -22,7 +22,7 @@
           </div>
         </div>
         <div class="col-12 col-md-4 d-flex justify-content-center">
-          <div class="box-tiket">
+          <div class="box-tiket my-2">
             <div class="p-4">
               <h5 class="fw-bold">FOUR DAY PASSES</h5>
               <span class="text-danger fw-bold">750.00 USD</span>
@@ -38,12 +38,12 @@
           </div>
         </div>
         <div class="col-12 col-md-4 d-flex justify-content-center">
-          <div class="box-tiket">
+          <div class="box-tiket my-2">
             <div class="p-4">
               <h5 class="fw-bold">TWO DAY PASS</h5>
               <span class="text-danger fw-bold">580.00 USD</span>
             </div>
-            <div class="text-muted fst-italic p-4">
+            <div class="text-muted fst-italic p-4 ">
               <p>Two Day Access</p>
               <p>Coffe Breack</p>
               <p>Lunch(International Buffet)</p>
@@ -66,7 +66,6 @@ export default {
 
 <style scoped lang="scss">
 #tikets {
-  height: 60vh;
   background-image: url("../assets/image/ticket-bg.jpg");
   background-repeat: no-repeat;
   background-size: cover;

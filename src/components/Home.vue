@@ -10,6 +10,8 @@
     <Location />
     <RecentNews />
     <Tikets />
+    <Presentation />
+    <Sponsors />
   </div>
 </template>
 
@@ -24,6 +26,8 @@ import Map from "./Map.vue";
 import Location from "./Location.vue";
 import RecentNews from "./RecentNews.vue";
 import Tikets from "./Tikets.vue";
+import Presentation from "./Presentation.vue";
+import Sponsors from "./Sponsors.vue";
 export default {
   name: "Home",
   components: {
@@ -36,7 +40,9 @@ export default {
     Map,
     Location,
     RecentNews,
-    Tikets
+    Tikets,
+    Presentation,
+    Sponsors
 },
 };
 </script>
