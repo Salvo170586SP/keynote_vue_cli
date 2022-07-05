@@ -41,7 +41,7 @@
               <li class="nav-item">
                 <a class="nav-link" href="#">Shortcodes</a>
               </li>
-              <li>
+              <li class="nav-item search-icon">
                 <i class="fa-solid fa-magnifying-glass"></i>
               </li>
             </ul>
@@ -59,40 +59,40 @@ export default {
 </script>
 
 <style scoped lang="scss">
-
-header{
+header {
   background-color: white;
   position: fixed;
   width: 100%;
   z-index: 10;
-}
-h1 {
-  font-size: 2rem;
-  font-weight: bold;
-}
 
-ul {
- /*  padding: 30px;
-  display: flex;
-  align-items: baseline; */
-}
+  h1 {
+    font-size: 2rem;
+    font-weight: bold;
+  }
 
-li {
-  margin: 0 10px;
-  padding-bottom: 10px;
-}
+  li {
+    margin: 0 10px;
+  }
 
-a {
-  padding: 0;
-}
-.nav-item {
-  font-weight: bold;
-  font-size: small;
-  text-transform: uppercase;
+    .navbar-light .navbar-nav  .nav-link {
+      &:hover {
+        color: orange;
+        box-shadow: 0 5px 0 0 orange;
+      }
+      &:focus {
+        color: orange;
+        box-shadow: 0 5px 0 0 orange;
+      }
+    }
 
-  &:hover {
-    color: orange;
-    border-bottom: 5px solid orange;
+  .nav-item {
+    font-weight: bold;
+    font-size: small;
+    text-transform: uppercase;
+  }
+
+  .search-icon{
+    line-height: 2;
   }
 }
 </style>
